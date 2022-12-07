@@ -11,16 +11,18 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 18px;
 }
 
 .balance {
+    color: rgb(253, 244, 233);
+    border-radius: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: hsl(10, 79%, 65%);
-    padding: 20px;
+    padding: 25px;
     width: 400px;
     height: 60px;
 }
@@ -35,7 +37,7 @@ body {
 }
 
 .circle-1 {
-    border: 1px solid #fff;
+    border: 1px solid rgb(253, 244, 233);
     height: 59px;
     width: 59px;
     border-radius: 50%;
@@ -55,10 +57,11 @@ body {
 
 
 .chart {
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     background-color: rgb(253, 244, 233);
-    padding: 20px;
+    padding: 25px;
 }
 
 .chart-bars {
