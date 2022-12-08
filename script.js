@@ -19,6 +19,10 @@ let myChart = new Chart(chartBars, {
           // hide y-axis labels
           ticks: {
             display: false
+          },
+          // hide background grid mesh
+          grid: {
+            display: false
           }
         }
       }
