@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.umd.min.js" integrity="sha512-HyprZz2W40JOnIBIXDYHCFlkSscDdYaNe2FYl34g1DOmE9J+zEPoT4HHHZ2b3+milFBtiKVWb4sorDVVp+iuqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href="style.css" rel="stylesheet">
-    <title>Balance</title>
+    <title>Expences Chart</title>
 </head>
 <body>
     <div class="container">
@@ -25,8 +26,8 @@
             <div class="chart-heading">
                 <h2>Spending - Last 7 days</h2>
             </div>
-            <div class="chart-bars">
-
+            <div class="chart-container">
+                <canvas id="chartBars"></canvas>
             </div>
             <div class="chart-footer">
                 <div class="month-total">
@@ -41,6 +42,6 @@
         </div>
 
     </div>
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

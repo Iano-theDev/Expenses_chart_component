@@ -74,7 +74,7 @@ body {
     padding: 25px;
 }
 
-.chart-bars {
+.chart-container {
     border-bottom: 1px solid hsl(27, 49%, 88%);;
     height: 200px;
     width: 400px;
