@@ -6,26 +6,47 @@ let myChart = new Chart(chartBars, {
     data: {
       labels: ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'],
       datasets: [{
-        label: 'expenditure',
-        data: [25, 55, 70, 45, 35, 63, 40],
-        backgroundColor: 'hsl(10, 79%, 65%)',
-        borderWidth: 1
+        label: '',
+        data: [25, 55, 70, 45, 35, 60, 40],
+        backgroundColor: [
+            'hsl(10, 79%, 65%)',
+            'hsl(10, 79%, 65%)',
+            'hsl(186, 34%, 60%)',
+            'hsl(10, 79%, 65%)',
+            'hsl(10, 79%, 65%)',
+            'hsl(10, 79%, 65%)',
+            'hsl(10, 79%, 65%)'
+        ],
+        borderWidth: 1,
+        borderRadius: 5
       }]
     },
     options: {
-      scales: {
-        y: {
-          beginAtZero: true,
-          // hide y-axis labels
-          ticks: {
-            display: false
-          },
-          // hide background grid mesh
-          grid: {
-            display: false
-          }
-        }
+        plugins: {
+            legend: {
+                display: false
+            }
+        },
+        scales: {
+            x: {
+                grid: {
+                    display: false,
+                    drawBorder: false,
+                    drawOnChartArea: false
+                }
+            },
+
+            y: {
+            beginAtZero: true,
+            ticks: {
+                display: false // hide y-axis labels
+            },
+            grid: {
+                drawBorder: false,
+                display: false // hide background grid mesh
+            }
+            }
+
       }
-      
     }
   });

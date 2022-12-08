@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     padding: 0;
-    background-color: rgb(254, 235, 211);
+    background-color: rgb(247, 237, 223);
     /* height: 900px; */
     /* width: 1440px; */
 }
@@ -70,7 +70,7 @@ body {
     border-radius: 16px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(253, 244, 233);
+    background-color: rgb(255, 255, 255);
     padding: 25px;
 }
 
