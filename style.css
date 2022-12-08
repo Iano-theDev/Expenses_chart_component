@@ -12,7 +12,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 18px;
-    font-family: sans-serif;
+    font-family: 'DM Sans';
 }
 
 .balance {
@@ -74,10 +74,15 @@ body {
     padding: 25px;
 }
 
+.chart-heading h2 {
+    margin-top: 0;
+}
+
 .chart-container {
     border-bottom: 1px solid hsl(27, 49%, 88%);;
     height: 200px;
     width: 400px;
+    padding-top: 20px;
 }
 
 .chart-footer {
@@ -85,7 +90,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 36px;
+    margin-top: 30px;
+    margin-bottom: 8px;
 }
 
 .month-total h1 {

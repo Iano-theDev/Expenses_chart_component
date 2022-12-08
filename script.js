@@ -7,7 +7,7 @@ let myChart = new Chart(chartBars, {
       labels: ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'],
       datasets: [{
         label: '',
-        data: [25, 55, 70, 45, 35, 60, 40],
+        data: [17.45, 34.91, 52.36, 31.07, 23.39, 43.28, 25.48],
         backgroundColor: [
             'hsl(10, 79%, 65%)',
             'hsl(10, 79%, 65%)',
